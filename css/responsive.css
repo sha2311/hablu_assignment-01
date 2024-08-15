@@ -1,0 +1,156 @@
+@media (max-device-width: 767px){
+    .login_button a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .get_start{
+        display: none;
+    
+     }
+     .fa-globe{
+        display: none;
+     }
+    
+    .menu_bar{
+        display: none;
+    }
+ .offer_section{
+    top: 10%;
+    left: 10%;
+    width: 80%;
+ }
+ .find_section{
+    padding: 0px 16px 25px;
+ }
+ .how_much{
+    padding: 8px 17px;
+    margin: -10px;
+ }
+ .cripto_info img {
+    width: 100%;
+    margin: 60px 20px 0px 0px;
+  }
+
+  .secured_section{
+    height: 1090px;
+
+ }
+ .res_ecrow {
+    margin: 150px 0;
+ }
+ .res_row{
+    margin: 150px 0;
+ }
+ .Features{
+    margin-top: 35px; 
+ }
+
+
+ .col-lg-3{
+    display: inline-block;
+    padding: 90px 0px;
+    margin: 0;
+ }
+ .escrow img{
+    width: 70px;
+    height: 70px;
+ }
+ .escrow hr{
+    width: 100%;
+    border: none;
+    
+ }
+
+
+ .features_btn{
+    left: 27%;
+    margin-top: 208%;
+ }
+
+ .buy_sell{
+    width: 100%;
+    height: 818px;
+ }
+
+ .buy_sellmenu{
+   display: inline-block;
+   margin: 10% 0;
+   width: 100%;
+   position: relative;
+ }
+ .buy_text{
+    margin-top: -50px;
+ }
+ .vr_line{
+    border-left: none;
+    height: 503px;
+    position: absolute;
+    left: 49%;
+    top:-141px;
+ }
+ .sing h3 {
+    font-size: 41px;
+    padding: 79px 5px 0;
+ }
+ .get_btn {
+    margin: 25px 0px 0px 33%;
+ }
+
+ .footer{
+    background: #000000;
+    height: 420px;
+    width: 100%;
+ }     
+
+    .footer-row {
+        padding: 55px 0px;
+        margin-left: -25%;
+    }
+    .footer-col{
+    padding-left: 60px;
+    }
+    .footer-col img{
+    width:100px;
+    display: none;
+
+    }
+    .footer-col h4 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    }
+    .footer-col .links {
+    margin-top: 20px;
+    }
+    .footer-col .links li {
+    list-style: none;
+    margin-bottom: 10px;
+    }
+    .footer-col .links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    }
+    .hr_footer{
+    color: #ECECEC;
+    }
+
+    .copy {
+        width: 100%;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+

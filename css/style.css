@@ -1,0 +1,376 @@
+/*==================================
+  Common css Start
+  ===================================*/
+  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    font-family: "Inter", sans-serif;
+    background: #f5f5f5;
+ }
+
+  .container{
+    max-width: 1180px;
+    width: 96%;
+    margin: 0 auto;
+ }
+
+/*==================================
+  header css Start
+  ===================================*/
+ .header_section{
+    background-color: #ffffff;
+    width: 100%;
+ }
+
+ .nav_menu{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    justify-content: space-between;
+ }
+ .logo img{
+    width: 145px;
+ }
+
+ .menu_bar a, .login_button a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    margin-left: 16px;
+ }
+ .login_btn{
+    background-color:   #F1F1F1;
+    padding: 5px 20px 7px 20px;
+    border-radius: 30px;
+    
+
+ }
+ .login_button .get_start{
+    color: #ffffff;
+ }
+ .get_start{
+    background-color:   #000000;
+    padding: 9px 28px 9px 28px;
+    border-radius: 30px;
+    color: white;
+
+ }
+
+ /*==================================
+  find section css Start
+  ===================================*/
+ .bg_frist{
+    width: 100%; 
+    height: 580px;
+ }
+ .Zappr_section{
+    position: relative;
+    
+ }
+
+ .offer_section{
+    position: absolute;
+    top: 33%;
+    bottom: 0;
+    text-align: center;
+    left: 20%;
+ }
+ .find_section{
+    background-color: #ffffff;
+    padding: 23px 33px 40px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4)
+}
+ .find_section h2{
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 25px;
+ }
+
+ .select_option{
+    border: none;
+    background: #ECECEC;
+   border-radius: 8px;
+   padding: 8px 15px;
+   margin: 0px 14px 25px 14px;
+   font-size: 18px;
+    font-weight: 500;
+
+
+ }
+ .how_much{
+    text-decoration: none;
+    background-color: #ECECEC;
+    color: #000000;
+    padding: 8px 180px;
+    margin: -8px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+ }
+
+ .find_offer{
+    text-decoration: none;
+    color: #000000;
+    padding: 8px 20px 8px 20px;
+    background: #00EBC7;
+    border-radius: 30px;
+    margin-left: 29px;
+    font-size: 18px;
+    font-weight: 500;
+ }
+ .why_zapper{
+    background-color: transparent;
+    padding: 8px 16px 8px 16px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 30px;
+    position: absolute;
+    left: 38%;
+    top: 83%;
+ }
+
+  /*==================================
+   cripto section css Start
+  ===================================*/
+
+  .cripto_section{
+    background-color: #FDE24F;
+    margin-top: -4px;
+    height: 300px;
+  }
+  .cripto_info{
+    padding: 50px;
+  }
+  .cripto_info p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500; 
+  }
+  .cripto_info img{
+    width: 85%;
+    margin: 60px 20px 0px 80px;
+  }
+  .cripto_info span{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+
+
+  }
+
+    /*==================================
+      secured section css Start
+     ===================================*/
+
+     .secured_section{
+        width: 100%;
+        height: 680px;
+        padding: 50px;
+        background: #ffffff;
+
+     }
+     .Features{
+        font-family: Inter;
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 41.15px;
+        text-align: left;
+        margin-top: 35px; 
+     }
+
+     .col-lg-3{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 90px 0px;
+        margin: 52px -80px;
+     }
+     .escrow img{
+        width: 70px;
+        height: 70px;
+     }
+     .escrow hr{
+        width: 80px;
+        border: 1px solid #000000;
+        margin: -138px 0px 0px 91%;
+        align-items: center;
+        
+     }
+     .escrow h4{
+        color: #000000;
+        font-size: 22px;
+        font-weight: 500;
+
+     }
+     .escrow p{
+        color: #000000;
+        font-size: 16px;
+        font-weight: normal;
+        padding: 10px 21% 35px;
+     }
+     .escrow a{
+        color: #000000;
+
+     }
+     .features_btn{
+        position: absolute;
+        left: 45%;
+        padding: 8px 20px 8px 20px;
+        border-radius: 25px;
+        text-decoration: none;
+        color: #000000;
+        font-size: 20px;
+        font-weight: 500;
+        background-color: transparent;
+        border: 1.5px solid #000000;
+        margin-top: -15px;
+     }
+
+       /*==================================
+        buy_sell section css Start
+        ===================================*/
+     .buy_sell{
+        width: 100%;
+        height: 362px;
+     }
+
+     .buy_sellmenu{
+       display: flex;
+       margin: 12%;
+       position: relative;
+     }
+     .buy_text{
+        margin-top: -80px;
+        position: absolute;
+        margin-left: 20px;
+     }
+
+     .buy{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border: 1.5px solid #000000;
+        border-radius: 8px;
+        margin-bottom: 8px;
+        
+     }
+     .buy p{
+        padding-left: 10px;
+        font-size: 14px;
+        font-weight: 500;
+     }
+     .buy span{
+        padding: 0px 15px;
+     }
+     .buy img{
+        width: 60px;
+        height: 60px;
+     }
+     .buymenu, .sell_menu{
+        padding: 40px;
+     }
+     .vr_line{
+        border-left: 1px solid #767676;
+        height: 503px;
+        position: absolute;
+        left: 49%;
+        top:-141px;
+     }
+     .view-btn{
+        background-color: #000000;
+        color: #ffffff;
+        padding: 7px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 15px;
+        margin:25px 0px 0px 70px ;
+     }
+     .sing_up{
+        height: 400px;
+        width: 100%;
+        background-color: #CFBAFF;
+     }
+     .sing h3{
+        font-size: 65px;
+        text-align: center;
+        padding: 80px 0px;
+     }
+     .get_btn{
+        background-color: #000000;
+        color: #ffffff;
+        padding: 7px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 15px;
+        margin:25px 0px 0px 42% ;
+     }
+
+       /*==================================
+        footer section css Start
+        ===================================*/
+
+
+     .footer{
+        background: #000000;
+        height: 420px;
+        width: 100%;
+        }     
+      .footer-row {
+        display: flex;
+        justify-content: center;
+        padding: 100px 40px;
+        margin-left: -12%;
+        }
+        .footer-col{
+            padding-left: 135px;
+        }
+        .footer-col img{
+            width:100px;
+        
+        }
+        .footer-col h4 {
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+        .footer-col .links {
+            margin-top: 20px;
+        }
+        .footer-col .links li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+        .footer-col .links li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+        }
+        .hr_footer{
+            color: #ECECEC;
+        }
+
+                /*==================================
+                copy section css Start
+                ===================================*/
+
+        .copy{
+            background-color: #000000;
+            padding: 15px 40px;
+        }
+        .copy p{
+            color: #fff;
+            font-size: 8px;
+            text-align: center
+         }
